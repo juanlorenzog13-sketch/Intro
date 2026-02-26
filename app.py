@@ -6,5 +6,5 @@ image = Image.open ("blehhh.jpg")
 st.image(image, caption="blehhh")
 texto=st.text_input("Ingresa texto","texto inicial")
 st.write("El texto que has escrito es",texto)
-if st.button("Presiona el boton");
+if st.button("Presiona el boton"):
   st.write("has presionado")
